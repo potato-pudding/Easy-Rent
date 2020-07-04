@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.fadein {
+	animation: fadeIn 1s;
+}
+
+.fadein-upLogo {
+	animation: fadeInUp 2s;
+}
+
+@keyframes fadeIn{
+	from{
+	opacity:0;}
+	to{
+	opacity:1;}
+}
+
+@keyframes fadeInUp{
+	from{
+	opacity:0;
+	transform: translateY(70%);}
+	to{
+	opacity:1;}
+}
+
+html {
+	background: url(../img/home.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	margin-top: 100px;
+	background-color: transparent;
+}
+
+form {
+	max-width: 430px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	border-radius: 30px;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0,0.8);
+  margin-top: 20px;
+}
+
+#table {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+i{
+	color: white;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+p{
+	margin: auto;
+	font-size:20px;
+}
